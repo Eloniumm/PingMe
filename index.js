@@ -220,13 +220,19 @@ if(process.env.token2) {
                     
                     
                     
-                        let channel = await client6.channels.cache.get(config.channel);
-                    
+                    let channel = await client10.channels.cache.get(config.channel);
+                    let channel2 = await client10.channels.cache.get(config.channel2);
                         setInterval(function() {
                             channel.send(`<@${config.user}>`)
                             channel.send(`<@${config.user}>`)
                             channel.send(`<@${config.user}>`)
                             channel.send(`<@${config.user}>`)
+                            channel.send(`<@${config.user}>`)
+                            channel2.send(`<@${config.user}>`)
+                            channel2.send(`<@${config.user}>`)
+                            channel2.send(`<@${config.user}>`)
+                            channel2.send(`<@${config.user}>`)
+                            channel2.send(`<@${config.user}>`)
                         }, 2000)
                     
                     
@@ -244,13 +250,19 @@ if(process.env.token2) {
                         
                         
                         
-                            let channel = await client7.channels.cache.get(config.channel);
-                        
+                        let channel = await client10.channels.cache.get(config.channel);
+                        let channel2 = await client10.channels.cache.get(config.channel2);
                             setInterval(function() {
                                 channel.send(`<@${config.user}>`)
                                 channel.send(`<@${config.user}>`)
                                 channel.send(`<@${config.user}>`)
                                 channel.send(`<@${config.user}>`)
+                                channel.send(`<@${config.user}>`)
+                                channel2.send(`<@${config.user}>`)
+                                channel2.send(`<@${config.user}>`)
+                                channel2.send(`<@${config.user}>`)
+                                channel2.send(`<@${config.user}>`)
+                                channel2.send(`<@${config.user}>`)
                             }, 2000)
                         
                         
@@ -268,13 +280,19 @@ if(process.env.token2) {
                             
                             
                             
-                                let channel = await client9.channels.cache.get(config.channel);
-                            
+                            let channel = await client10.channels.cache.get(config.channel);
+                            let channel2 = await client10.channels.cache.get(config.channel2);
                                 setInterval(function() {
                                     channel.send(`<@${config.user}>`)
                                     channel.send(`<@${config.user}>`)
                                     channel.send(`<@${config.user}>`)
                                     channel.send(`<@${config.user}>`)
+                                    channel.send(`<@${config.user}>`)
+                                    channel2.send(`<@${config.user}>`)
+                                    channel2.send(`<@${config.user}>`)
+                                    channel2.send(`<@${config.user}>`)
+                                    channel2.send(`<@${config.user}>`)
+                                    channel2.send(`<@${config.user}>`)
                                 }, 2000)
                             
                             
@@ -292,13 +310,19 @@ if(process.env.token2) {
                                 
                                 
                                 
-                                    let channel = await client9.channels.cache.get(config.channel);
-                                
+                                let channel = await client10.channels.cache.get(config.channel);
+                                let channel2 = await client10.channels.cache.get(config.channel2);
                                     setInterval(function() {
                                         channel.send(`<@${config.user}>`)
                                         channel.send(`<@${config.user}>`)
                                         channel.send(`<@${config.user}>`)
                                         channel.send(`<@${config.user}>`)
+                                        channel.send(`<@${config.user}>`)
+                                        channel2.send(`<@${config.user}>`)
+                                        channel2.send(`<@${config.user}>`)
+                                        channel2.send(`<@${config.user}>`)
+                                        channel2.send(`<@${config.user}>`)
+                                        channel2.send(`<@${config.user}>`)
                                     }, 2000)
                                 
                                 
@@ -317,12 +341,18 @@ if(process.env.token2) {
                                     
                                     
                                         let channel = await client10.channels.cache.get(config.channel);
-                                    
+                                    let channel2 = await client10.channels.cache.get(config.channel2);
                                         setInterval(function() {
                                             channel.send(`<@${config.user}>`)
                                             channel.send(`<@${config.user}>`)
                                             channel.send(`<@${config.user}>`)
                                             channel.send(`<@${config.user}>`)
+                                            channel.send(`<@${config.user}>`)
+                                            channel2.send(`<@${config.user}>`)
+                                            channel2.send(`<@${config.user}>`)
+                                            channel2.send(`<@${config.user}>`)
+                                            channel2.send(`<@${config.user}>`)
+                                            channel2.send(`<@${config.user}>`)
                                         }, 2000)
                                     
                                     
