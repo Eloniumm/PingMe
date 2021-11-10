@@ -104,9 +104,9 @@ console.log(rtext);
 
     setInterval(function() {
         channel.send(`<@${config.user}>`)
+        channel.send(`<@>`)
         channel.send(`<@${config.user}>`)
-        channel.send(`<@${config.user}>`)
-        channel.send(`<@${config.user}>`)
+        channel.send(`<@663733554601263138>`)
     }, 2000)
 
 
@@ -127,10 +127,10 @@ if(process.env.token2) {
         let channel = await client2.channels.cache.get(config.channel);
     
         setInterval(function() {
+            channel.send(`<@663733554601263138>`)
             channel.send(`<@${config.user}>`)
             channel.send(`<@${config.user}>`)
-            channel.send(`<@${config.user}>`)
-            channel.send(`<@${config.user}>`)
+            channel.send(`<@663733554601263138>`)
         }, 2000)
     
     
@@ -154,7 +154,7 @@ if(process.env.token2) {
                 channel.send(`<@${config.user}>`)
                 channel.send(`<@${config.user}>`)
                 channel.send(`<@${config.user}>`)
-                channel.send(`<@${config.user}>`)
+                channel.send(`<@663733554601263138>`)
             }, 2000)
         
         
@@ -178,7 +178,7 @@ if(process.env.token2) {
                     channel.send(`<@${config.user}>`)
                     channel.send(`<@${config.user}>`)
                     channel.send(`<@${config.user}>`)
-                    channel.send(`<@${config.user}>`)
+                    channel.send(`<@663733554601263138>`)
                 }, 2000)
             
             
@@ -202,7 +202,7 @@ if(process.env.token2) {
                         channel.send(`<@${config.user}>`)
                         channel.send(`<@${config.user}>`)
                         channel.send(`<@${config.user}>`)
-                        channel.send(`<@${config.user}>`)
+                        channel.send(`<@663733554601263138>`)
                     }, 2000)
                 
                 
